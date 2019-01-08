@@ -10,6 +10,7 @@ export ROOTDIR="$CURDIR/.."
 #设置arch和架构内部使用库的路径，采用相对路径
 export INLIBDIR="$ROOTDIR/libs/include"
 
+
 #设置别名命令，进行编译的命令
 alias demomake="make --include-dir=$INLIBDIR -C $CURDIR"
 

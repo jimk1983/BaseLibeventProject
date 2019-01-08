@@ -9,7 +9,7 @@ CFLAGS +=-Wall -g #-Werror -O3  	#将-Werror将告警当作错误处理
 
 ###########################
 #公共属性定义
-TARGET=RedisClientDemo
+TARGET=BaseServer
 OUTPUTBINSDIR=$(CURDIR)
 OUTPUTOBJSDIR=$(CURDIR)
 
