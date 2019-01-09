@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <arpa/inet.h>
 #include <event2/queue.h>
 #include <event2/event.h>
 #include <event2/event_struct.h>
