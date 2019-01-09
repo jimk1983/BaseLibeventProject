@@ -27,7 +27,7 @@ LSFLAGS +=-L$(ROOTDIR)/3thrd/Bin
 #添加的是/usr/local/lib下的libevent动态库
 LDFLAGS = -levent
 #这些是系统的库
-LDFLAGS = -ldl -lpthread -lrt -lm #-ldb
+LDFLAGS += -ldl -lpthread -lrt -lm #-ldb
 
 
 

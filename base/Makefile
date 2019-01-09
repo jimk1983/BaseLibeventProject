@@ -39,3 +39,4 @@ LIBOBJS=$(LIBOBJSDIR)/*.o
 .PHONY:clean
 clean:
 	rm -rf $(LIBOBJSDIR)/*.o
+	rm -rf $(LIBTARGET)
